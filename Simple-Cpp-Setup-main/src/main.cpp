@@ -41,10 +41,6 @@ int main()
     //choose a random number between 0 and 100
     int myNumber = rand(0, 100);
 
-    // asking a number to the player
-
-    // int userNumber = getUserNumber();
-
     //guess the user number
     bool isFinished = false;
     guessUserNumber(myNumber, isFinished);

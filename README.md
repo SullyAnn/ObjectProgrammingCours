@@ -13,3 +13,8 @@ C++ course
 7. Stack vs Heap
 8. Consistency in style 
 
+
+	* Level 2 *
+1. Make it work, then make it good
+2. Prefer free functions 
+
