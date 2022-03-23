@@ -1,6 +1,6 @@
 #include <iostream>
 #include <random>
-#include "guessTheNumber.hpp"
+#include "guess_the_number.hpp"
 
 void pickAWord()
 {
@@ -9,7 +9,7 @@ void pickAWord()
 int main()
 {
     /* ----------------- EX 1 : GUESS THE NUMBER -----------------------*/
-    guessUserNumber();
+    play_guess_the_number();
 
     /* ----------------- EX 2 : HANGMAN -----------------------*/
 }

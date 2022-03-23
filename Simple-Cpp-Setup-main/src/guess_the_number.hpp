@@ -3,8 +3,8 @@
 #include <iostream>
 #include <random>
 
-int  rand(int min, int max);
-int  getUserNumber();
-void guessUserNumber();
+int  get_random_number(int min, int max);
+int  get_user_number();
+void play_guess_the_number();
 
 #endif
