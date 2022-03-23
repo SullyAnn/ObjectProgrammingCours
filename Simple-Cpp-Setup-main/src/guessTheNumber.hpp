@@ -5,6 +5,6 @@
 
 int  rand(int min, int max);
 int  getUserNumber();
-void guessUserNumber(int myNumber, bool isFinished);
+void guessUserNumber();
 
 #endif

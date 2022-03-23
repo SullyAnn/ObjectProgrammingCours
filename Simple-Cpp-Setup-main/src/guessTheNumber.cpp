@@ -3,6 +3,7 @@
 #include <random>
 
 /// Returns a random int between min (included) and max (included)
+
 int rand(int min, int max)
 {
     static std::default_random_engine  generator{std::random_device{}()};
@@ -20,8 +21,14 @@ int getUserNumber()
     return userNumber;
 }
 
-void guessUserNumber(int myNumber, bool isFinished)
+void guessUserNumber()
 {
+    //choose a random number between 0 and 100
+    int myNumber = rand(0, 100);
+
+    //guess the user number
+    bool isFinished = false;
+
     while (!isFinished) {
         int userNumber = getUserNumber();
         if (userNumber == myNumber) {
