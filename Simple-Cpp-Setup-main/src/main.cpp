@@ -9,7 +9,6 @@ void pickAWord()
 int main()
 {
     /* ----------------- EX 1 : GUESS THE NUMBER -----------------------*/
-
     guessUserNumber();
 
     /* ----------------- EX 2 : HANGMAN -----------------------*/
