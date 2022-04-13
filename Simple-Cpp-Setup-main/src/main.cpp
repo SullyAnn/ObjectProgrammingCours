@@ -11,5 +11,5 @@ int main()
     //play_guess_the_number();
 
     /* ----------------- EX 2 : HANGMAN -----------------------*/
-    chose_random_word();
+    play_hangman();
 }
