@@ -17,4 +17,14 @@ C++ course
 	* Level 2 *
 1. Make it work, then make it good
 2. Prefer free functions 
+3. Design cohesive classes
+4. Use structs to group data 
+5. Write small functions
+6. DRY: Don't repeat yourself
+7. Enums
+8. Split problems in small pieces
+9. Composition over inheritance 
+
+	* Level 3 *
+1. std::vector
 
