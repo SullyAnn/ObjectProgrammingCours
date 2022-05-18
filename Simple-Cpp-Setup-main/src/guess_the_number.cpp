@@ -5,6 +5,7 @@
 
 void play_guess_the_number()
 {
+    std::cout<< "Welcome in Guess the number" << std::endl;
     //choose a random number between 0 and 100
     int myNumber = get_random_number<int>(0, 100);
 

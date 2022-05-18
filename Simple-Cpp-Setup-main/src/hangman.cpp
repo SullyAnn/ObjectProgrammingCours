@@ -95,6 +95,8 @@ void show_defeat_message(std::string word_to_guess)
 
 void play_hangman()
 {
+    std::cout<<"Welcome in Hangman"<<std::endl;
+
     std::string       word            = chose_random_word();
     int               number_of_lives = 8;
     std::vector<bool> letters_guessed(word.size(), false);
