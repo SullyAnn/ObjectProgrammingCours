@@ -7,7 +7,6 @@ enum class Command {
     quit         = 'q',
 };
 
-
 bool check_input_value(Command command);
 
 

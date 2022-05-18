@@ -18,7 +18,7 @@ bool check_input_value(Command command)
         exit(0);
         break;
     default:
-        std::cout << "Sorry I don't know this command ! Try again..." << std::endl;
+        std::cout << "Oopsi wrong command" << std::endl;
         return false;
         break;
     }
